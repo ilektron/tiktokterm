@@ -9,3 +9,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # add the executable
 add_executable(tiktokterm src/main.cpp)
+
+target_link_libraries(tiktokterm ssl crypto)
